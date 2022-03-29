@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Trabalhando com midias sonoras</h1>
+
+    <audio src="midias/audio-teste1.mp3" controls autoplay></audio>
+    <p>(Reprodução feita apenas com a tag de &lt;audio&gt;, com parametros de "controls" e "autoplay".)</p>
+
+    <audio preload="auto" controls>
+        <source src="midias/audio-teste2.ogg" type="audio/ogg">
+        <source src="midias/audio-teste1.mp3" type="audio/mpeg">
+    </audio>
+    <p>(Adicionando mais compatibilidade ao site com a tag de &lt;audio&gt; com source, preload e controls)</p>
+    <ul>
+        <li>Aqui tem os formatos .mp3 e .ogg carregados no site</li>
+    </ul>
+</body>
+</html>

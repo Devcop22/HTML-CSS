@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@font-face {
+    font-family: minhafonte;
+    src: url(idroid.otf);
+  }
+
+body{
+    background-color: rgb(142, 223, 185);
+}
+
+header{
+    background-image: linear-gradient(to right, rgb(70, 206, 110), rgb(37, 138, 37));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 1px;
+    border: rgb(70, 206, 110);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+
+}
+
+.titulo{
+    font-size: 50px;
+    color: white;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+main{
+    width: 800px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+
+}
+
+h2{
+    font-family: minhafonte;
+    color: rgb(8, 95, 8);
+    font-size: 30px;
+}
+
+.secundario{
+    font-size: 20px;
+    background-color: rgba(0, 255, 64, 0.158);
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.video{
+    background-color: green;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+.centralizar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.teste{
+background-color: rgb(160, 223, 223);
+border-radius: 0px 0px 15px 15px;
+padding: 10px;
+}
+
+.teste2{
+    background-color: green;
+    padding: 20px;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0px;
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

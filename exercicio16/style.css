@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, #1A1CB2, #3436CC, #7B16CC);
+}
+
+main {
+    background-color: rgb(233, 224, 224);
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 53px 5px 10px #390a5f;
+}
+
+h1 {
+    color: #620080;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
