@@ -14,13 +14,13 @@
 }
 
 body{
-    background-color: #EEA56D;
+    background-color: #ffffff;
     font-family: var(--fontePadrao);
 }
 
 header{
     background-color: #B8611D;
-    padding: 50px 0px 50px 0px;
+    padding: 100px 0px 100px 0px;
     font-family: var(--fontePrincipal);
     color: white;
     text-align: center;
@@ -28,7 +28,6 @@ header{
 }
 
 header h1{
-    margin: 100px 0px 10px 0px;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.24);
 }
 
@@ -57,7 +56,6 @@ main{
     margin: auto;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
 }
 
 main h1{
@@ -85,7 +83,6 @@ main p{
 }
 
 main img{
-    margin: 10px 0px;
     border-radius: 10px;
     width: 800px;
     height: 450px;
