@@ -49,18 +49,34 @@ section {
     font-size: 1.5em;
 }
 
+section > p {
+    padding-bottom: 1em;
+}
+
+#img1{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+#img2{
+    background-image: url(../imagens/background002.jpg);
+}
+
 .normal {
     background-color: white;
 }
 
 .foto {
     background-color: rgb(68, 57, 57);
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
     color: white;
 }
 
 .foto > p {
     width: 400px;
-    background-color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(0, 0, 0, 0.473);
 }
 
 a:hover {
