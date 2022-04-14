@@ -15,9 +15,16 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         thead {
+            background-color: rgb(209, 203, 203);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -2px;
             background-color: rgb(209, 203, 203);
         }
 
@@ -26,7 +33,7 @@
         }
 
         td {
-            color: white;
+            color: rgb(0, 0, 0);
         }
 
         th, td {
@@ -36,21 +43,21 @@
 
         .num {
             text-align: right;
-            background-color: rgb(134, 197, 40);
         }
 
-        .cor1 {
-            background-color: green;
+        tbody > tr:nth-child(2n-1){
+            background-color: rgb(168, 167, 167);
         }
+
     </style>
 </head>
 <body>
-    <h1>Tabela Grande</h1>
+    <h1>Tabela "Grande"</h1>
 
     <table>
         <thead>
             <th>Estado</th>
-            <th>População</th>
+            <th style="width: 50px;">População</th>
         </thead>
         <tbody>
             <tr>
