@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -50,6 +45,10 @@ th, td {
 }
 
 div {
+    margin-top: 50px;
+}
+
+div > p{
     margin: auto;
     padding: 10px;
     width: 500px;
