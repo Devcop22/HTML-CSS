@@ -1,2 +1,2 @@
 # HTML-CSS
- Curso
+ Curso em video estudos.
