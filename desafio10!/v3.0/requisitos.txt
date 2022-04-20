@@ -1,9 +1,0 @@
-Requisitos para o projeto.
---------------------------------------<
-- Responsividade (imagens, videos).
-- Video incorporado.
-- Gradiente e cores harmonicas.
-- Relacionado (aside).
-- Animação (hover).
-- Lista e menus.
-- Organização semantica.
